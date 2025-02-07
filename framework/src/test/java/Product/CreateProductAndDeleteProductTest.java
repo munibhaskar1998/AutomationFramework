@@ -69,6 +69,8 @@ public class CreateProductAndDeleteProductTest extends BaseClass {
 		  deletepage.ValidateDeletePageDetails(driver, PrdName);
 		  
 		  driver.quit();
+		  
+		  System.out.println("I am working in Tech Mahindra");
 		  		  					
 		}
 	}

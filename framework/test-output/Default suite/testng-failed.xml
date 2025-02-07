@@ -3,10 +3,9 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Product.CreateProductAndDeleteProductTest">
+      <class name="organisation.CreateOrganisationTest">
         <methods>
           <include name="BM"/>
-          <include name="CreateProductAndDeleteProductTest"/>
           <include name="BS"/>
           <include name="BC"/>
           <include name="AS"/>
@@ -14,8 +13,9 @@
           <include name="AC"/>
           <include name="AT"/>
           <include name="AM"/>
+          <include name="CreateOrganisationTest"/>
         </methods>
-      </class> <!-- Product.CreateProductAndDeleteProductTest -->
+      </class> <!-- organisation.CreateOrganisationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

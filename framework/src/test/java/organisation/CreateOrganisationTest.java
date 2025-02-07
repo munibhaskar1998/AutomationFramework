@@ -63,6 +63,8 @@ public class CreateOrganisationTest extends BaseClass {
 	     Assert.assertEquals(actualData, OrgName);
 	      System.out.println("Org is validated");
 	      
+	      System.out.println("I am software engineer");
+	      
 	}
 }   
 	    

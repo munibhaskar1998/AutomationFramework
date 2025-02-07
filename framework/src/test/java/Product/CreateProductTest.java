@@ -60,6 +60,8 @@ public class CreateProductTest extends BaseClass {
 		  String actualData = valpropage.ValidateProductDetails(driver);
 		  Assert.assertEquals(actualData, PrdName);
 	      System.out.println("Product is validated");
+	      
+	      System.out.println("I am working in CGI Company");
 	}
 
 }

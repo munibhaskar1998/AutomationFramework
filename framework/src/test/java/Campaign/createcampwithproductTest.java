@@ -87,6 +87,8 @@ public class createcampwithproductTest extends BaseClass {
 	    String actualProdName = vcwpp.ValidateCampWithProductDetails(driver);
 	    Assert.assertEquals(actualProdName, PrdName);
 	    System.out.println("Product is validated");
+	    
+	    System.out.println("I am an engineer");
         
 	}
     
