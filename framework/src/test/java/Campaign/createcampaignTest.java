@@ -64,10 +64,6 @@ public class createcampaignTest extends BaseClass {
 	      String actualData = valCampPage.ValidateCampDetails(driver);
 	      Assert.assertEquals(actualData, CampName);
 	      System.out.println("Camp is validated");
-	      
-	      System.out.println("Hi");
-	      System.out.println("Hello Bhaskar");
-	      System.out.println("Automation engineer");
 	         
 	}
 
